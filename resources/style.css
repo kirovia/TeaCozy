@@ -93,6 +93,8 @@ section#locations {
   justify-content: space-around;
   align-items: center;
   background-image: URL("./images/locations.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 div#locations, h2#locations {
