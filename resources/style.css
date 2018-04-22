@@ -20,6 +20,7 @@ header {
   position: fixed;
   z-index: 1;
   width: 100%;
+  opacity: 1.0;
 }
 
 .logo {
@@ -34,4 +35,31 @@ div.navbar {
 
 a {
   margin: 0 5px;
+}
+
+/* Mission Section Styling */
+
+section#mission {
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+  height: 700px;
+  width: 1200px;
+  background-image: URL("./images/background.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.mission {
+  width: 100%;
+  text-align: center;
+}
+
+/* Featured Tea Section Styling */
+
+section#featuredtea {
+  position: relative;
+  top: 800px;
 }
