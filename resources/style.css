@@ -23,6 +23,10 @@ h2, h4 {
   margin: 15px;
 }
 
+section#mission, section#featuredtea, section#locations, footer {
+  position: relative;
+  top: 70px;
+}
 /* Header Styling */
 
 header {
@@ -30,6 +34,9 @@ header {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
 }
 
 .logo {
