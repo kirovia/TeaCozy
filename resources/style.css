@@ -22,6 +22,7 @@ img.tea {
 h2, h4 {
   margin: 15px;
 }
+
 /* Header Styling */
 
 header {
@@ -110,4 +111,20 @@ div.locale {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+/* Footer Styling */
+
+div.footer {
+  height: 200px;
+  text-align: center;
+  margin-top: 75px;
+}
+
+ h5 {
+   margin: 20px;
+ }
+
+div.copyright {
+  margin: 20px;
 }
